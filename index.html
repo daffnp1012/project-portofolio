@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mid Term Test Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+          <a href="#">PORTOFOLIO<span>.</span></a>
+      </div>
+      <div class="menuToggle" onclick="menuToggle();"></div>
+      <ul class="nav">
+          <li><a href="#home" onclick="menuToggle();">Home</a></li>
+          <li><a href="#biodata" onclick="menuToggle();">Biodata</a></li>
+          <li><a href="#about" onclick="menuToggle();">About</a></li>
+          <li><a href="#showcase" onclick="menuToggle();">Showcase</a></li>
+          <li><a href="#faq" onclick="menuToggle();">FAQ</a></li>
+          <li><a href="#contact" onclick="menuToggle();">Contact</a></li>
+      </ul>
+
+      <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+  </header>
+    <!-- END HEADER -->
+
+    <!-- HOME -->
+
+    <section id="home" class="home text-center bg-dark">
+      <h1 class="fw-bold text-light pt-5 mt-5">Welcome!</h1>
+      <img src="/assets/Nash One New (Dark).png" width="200" height="200" class="rounded-circle m-5" alt="nsh">
+      <p class="lead text-light" style="font-size: 25px;">To my portofolio</p>
+    </section>
+
+    <!-- END HOME -->
+    
+    <!-- BIO -->
+    <section id="biodata">
+      <div class="col-50-biodata">
+        <div class="img-biodata">
+            <img src="/assets/my_pic.jpeg" alt="profile-pic">
+        </div>
+    </div>
+        <div class="col-50-biodata">
+            <h2 class="title-biodata">Hello <span>!</span> </h2>
+            <p class="text-biodata">I am Daffa Nashwan Pramono. I'm 16 years old. I study at Rabbaanii Islamic Vocational School, software engineering majority. I love designing and drawing</p>
+        </div>
+    </section>
+    <!-- END BIO -->
+
+    <!-- ABOUT -->
+    <div class="accordion" id="about">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button "type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            About Me
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">  
+            <p>Name: Daffa Nashwan Pramono</p> 
+            <p>Age: 16</p> 
+            <p>Birth date: 10 December 2005</p> 
+            <p>Hobbies: Drawing, Design, Bicycling, Playing games</p>  
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END ABOUT -->
+
+    <!-- SHOWCASE -->
+    <section id="showcase">
+        
+      <h2 class="text-center">Projects</h2>
+      <div class="box">
+        <div class="box my-5">
+              <div class="card" style="width: 18rem;">
+              <img src="/assets/Rabbaanii Web Redesign.png" class="card-img-top" alt="Card pic 1">
+              <div class="card-body">
+                <h5 class="card-title">Rabbaanii Website Redesign</h5>
+                <a href="https://www.figma.com/file/pcPPEEWSlmCdIlsg4znwBh/Lomba-Desain-Grafis?node-id=0%3A1" class="btn btn-primary">Link</a>
+              </div>
+            </div></div>
+
+            <div class="box my-5">
+              <div class="card" style="width: 18rem;">
+              <img src="/assets/Poster HUT RI (Bekasi).png" class="card-img-top" alt="card pic2">
+              <div class="card-body">
+                <h5 class="card-title">Independence Day Poster</h5>
+                <a href="https://www.figma.com/file/ul3rbFSi7f6uZF8bcGiQQp/Lomba-Poster-HUT-RI?node-id=0%3A1" class="btn btn-primary">Link</a>
+              </div>
+            </div></div>
+
+            <div class="box my-5">
+              <div class="card" style="width: 18rem;">
+              <img src="/assets/al_quranii_logo.png" class="card-img-top" alt="card Pic 3">
+              <div class="card-body">
+                <h5 class="card-title">AlQuranii</h5>
+                <a href="https://www.figma.com/file/tZLOkMBRS2PfjBIVG1u46E/Quran-app-concept?node-id=0%3A1" class="btn btn-primary">Link</a>
+              </div>
+            </div></div>
+      </div>
+
+    </section>
+    <!-- END SHOWCASE -->
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="title-accordion">
+        <h3>FAQ</h3>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button mh-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             Why did you choose software engineering as your major?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              I excited to know more about computer technology, especially in designing & programming.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What language are you using for coding?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              I use Kotlin, Java, CSS and HTML for programming. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 What template or application are you using for designing?         
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              I use Figma for designing, because it's simple and free to use.
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+    <!-- END FAQ -->
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="footer-content">
+          <div class="footer-social">
+              <a href="#"
+                 target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=6281291070074&text=Hello, stranger!" 
+                 target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+  
+          <div class="footer-copyright">
+              <p class="copyright-text"> Daffa NP | Copyright &copy; 2022</p>
+          </div>
+      </div>
+      </footer>
+    <!-- END FOOTER -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
